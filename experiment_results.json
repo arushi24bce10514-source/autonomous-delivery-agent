@@ -1,0 +1,1181 @@
+{
+  "timestamp": "2025-09-25T01:49:14.024043",
+  "experiments": {
+    "small": {
+      "4-connected": {
+        "bfs": {
+          "success_count": 3,
+          "min_cost": 18,
+          "max_cost": 18,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0009622573852539062,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.00032075246175130207,
+          "avg_cost": 18.0,
+          "avg_nodes": 98.0,
+          "avg_path_length": 19.0
+        },
+        "ucs": {
+          "success_count": 3,
+          "min_cost": 18,
+          "max_cost": 18,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0009577274322509766,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0003192424774169922,
+          "avg_cost": 18.0,
+          "avg_nodes": 98.0,
+          "avg_path_length": 19.0
+        },
+        "astar": {
+          "success_count": 3,
+          "min_cost": 18,
+          "max_cost": 18,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0010077953338623047,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 96
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 96
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0009996891021728516,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 96
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0006691614786783854,
+          "avg_cost": 18.0,
+          "avg_nodes": 96.0,
+          "avg_path_length": 19.0
+        },
+        "local": {
+          "success_count": 3,
+          "min_cost": 18,
+          "max_cost": 18,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0019965171813964844,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 15
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0010025501251220703,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 10
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010018348693847656,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 18
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0013336340586344402,
+          "avg_cost": 18.0,
+          "avg_nodes": 14.333333333333334,
+          "avg_path_length": 19.0
+        }
+      },
+      "8-connected": {
+        "bfs": {
+          "success_count": 3,
+          "min_cost": 18,
+          "max_cost": 18,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0010044574737548828,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010027885437011719,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0006690820058186849,
+          "avg_cost": 18.0,
+          "avg_nodes": 98.0,
+          "avg_path_length": 19.0
+        },
+        "ucs": {
+          "success_count": 3,
+          "min_cost": 18,
+          "max_cost": 18,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.00099945068359375,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 98
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0003331502278645833,
+          "avg_cost": 18.0,
+          "avg_nodes": 98.0,
+          "avg_path_length": 19.0
+        },
+        "astar": {
+          "success_count": 3,
+          "min_cost": 18,
+          "max_cost": 18,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 96
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0009996891021728516,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 96
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 96
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.00033322970072428387,
+          "avg_cost": 18.0,
+          "avg_nodes": 96.0,
+          "avg_path_length": 19.0
+        },
+        "local": {
+          "success_count": 3,
+          "min_cost": 18,
+          "max_cost": 18,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 8
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.001432657241821289,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 8
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.001007080078125,
+              "path_cost": 18,
+              "path_length": 19,
+              "nodes_expanded": 14
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0008132457733154297,
+          "avg_cost": 18.0,
+          "avg_nodes": 10.0,
+          "avg_path_length": 19.0
+        }
+      }
+    },
+    "medium": {
+      "4-connected": {
+        "bfs": {
+          "success_count": 3,
+          "min_cost": 38,
+          "max_cost": 38,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0020029544830322266,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0010097026824951172,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0019965171813964844,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0016697247823079426,
+          "avg_cost": 38.0,
+          "avg_nodes": 392.0,
+          "avg_path_length": 39.0
+        },
+        "ucs": {
+          "success_count": 3,
+          "min_cost": 38,
+          "max_cost": 38,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.00299835205078125,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.001512289047241211,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0019989013671875,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0021698474884033203,
+          "avg_cost": 38.0,
+          "avg_nodes": 392.0,
+          "avg_path_length": 39.0
+        },
+        "astar": {
+          "success_count": 3,
+          "min_cost": 38,
+          "max_cost": 38,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0020051002502441406,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 380
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0010008811950683594,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 380
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010075569152832031,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 380
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0013378461201985676,
+          "avg_cost": 38.0,
+          "avg_nodes": 380.0,
+          "avg_path_length": 39.0
+        },
+        "local": {
+          "success_count": 3,
+          "min_cost": 38,
+          "max_cost": 38,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0009927749633789062,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 16
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.00099945068359375,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 10
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010042190551757812,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 32
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0009988149007161458,
+          "avg_cost": 38.0,
+          "avg_nodes": 19.333333333333332,
+          "avg_path_length": 39.0
+        }
+      },
+      "8-connected": {
+        "bfs": {
+          "success_count": 3,
+          "min_cost": 38,
+          "max_cost": 38,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0009987354278564453,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0009953975677490234,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.00099945068359375,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0009978612263997395,
+          "avg_cost": 38.0,
+          "avg_nodes": 392.0,
+          "avg_path_length": 39.0
+        },
+        "ucs": {
+          "success_count": 3,
+          "min_cost": 38,
+          "max_cost": 38,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0019991397857666016,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0010004043579101562,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010089874267578125,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 392
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0013361771901448567,
+          "avg_cost": 38.0,
+          "avg_nodes": 392.0,
+          "avg_path_length": 39.0
+        },
+        "astar": {
+          "success_count": 3,
+          "min_cost": 38,
+          "max_cost": 38,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0009999275207519531,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 380
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0019927024841308594,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 380
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010178089141845703,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 380
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.001336812973022461,
+          "avg_cost": 38.0,
+          "avg_nodes": 380.0,
+          "avg_path_length": 39.0
+        },
+        "local": {
+          "success_count": 3,
+          "min_cost": 38,
+          "max_cost": 38,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0009996891021728516,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 37
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0019922256469726562,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 27
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0009989738464355469,
+              "path_cost": 38,
+              "path_length": 39,
+              "nodes_expanded": 16
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0013302961985270183,
+          "avg_cost": 38.0,
+          "avg_nodes": 26.666666666666668,
+          "avg_path_length": 39.0
+        }
+      }
+    },
+    "large": {
+      "4-connected": {
+        "bfs": {
+          "success_count": 3,
+          "min_cost": 58,
+          "max_cost": 58,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0019898414611816406,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0010085105895996094,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0009942054748535156,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0013308525085449219,
+          "avg_cost": 58.0,
+          "avg_nodes": 888.0,
+          "avg_path_length": 59.0
+        },
+        "ucs": {
+          "success_count": 3,
+          "min_cost": 58,
+          "max_cost": 58,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0030059814453125,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.002992391586303711,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.002000093460083008,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0026661554972330728,
+          "avg_cost": 58.0,
+          "avg_nodes": 888.0,
+          "avg_path_length": 59.0
+        },
+        "astar": {
+          "success_count": 3,
+          "min_cost": 58,
+          "max_cost": 58,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0030007362365722656,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 872
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0030069351196289062,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 872
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.003000020980834961,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 872
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0030025641123453775,
+          "avg_cost": 58.0,
+          "avg_nodes": 872.0,
+          "avg_path_length": 59.0
+        },
+        "local": {
+          "success_count": 3,
+          "min_cost": 58,
+          "max_cost": 58,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0019922256469726562,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 14
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0020072460174560547,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 22
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0020003318786621094,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 37
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.001999934514363607,
+          "avg_cost": 58.0,
+          "avg_nodes": 24.333333333333332,
+          "avg_path_length": 59.0
+        }
+      },
+      "8-connected": {
+        "bfs": {
+          "success_count": 3,
+          "min_cost": 58,
+          "max_cost": 58,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0010030269622802734,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0019958019256591797,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010001659393310547,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.001332998275756836,
+          "avg_cost": 58.0,
+          "avg_nodes": 888.0,
+          "avg_path_length": 59.0
+        },
+        "ucs": {
+          "success_count": 3,
+          "min_cost": 58,
+          "max_cost": 58,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.003004789352416992,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.002995729446411133,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0030066967010498047,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 888
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0030024051666259766,
+          "avg_cost": 58.0,
+          "avg_nodes": 888.0,
+          "avg_path_length": 59.0
+        },
+        "astar": {
+          "success_count": 3,
+          "min_cost": 58,
+          "max_cost": 58,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0029993057250976562,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 872
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0029976367950439453,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 872
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.003000020980834961,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 872
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.002998987833658854,
+          "avg_cost": 58.0,
+          "avg_nodes": 872.0,
+          "avg_path_length": 59.0
+        },
+        "local": {
+          "success_count": 3,
+          "min_cost": 58,
+          "max_cost": 58,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0020875930786132812,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 33
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.001087188720703125,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 31
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0009043216705322266,
+              "path_cost": 58,
+              "path_length": 59,
+              "nodes_expanded": 28
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.001359701156616211,
+          "avg_cost": 58.0,
+          "avg_nodes": 30.666666666666668,
+          "avg_path_length": 59.0
+        }
+      }
+    },
+    "dynamic": {
+      "4-connected": {
+        "bfs": {
+          "success_count": 3,
+          "min_cost": 28,
+          "max_cost": 28,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0010461807250976562,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.00034872690836588543,
+          "avg_cost": 28.0,
+          "avg_nodes": 221.0,
+          "avg_path_length": 29.0
+        },
+        "ucs": {
+          "success_count": 3,
+          "min_cost": 28,
+          "max_cost": 28,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010046958923339844,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0003348986307779948,
+          "avg_cost": 28.0,
+          "avg_nodes": 221.0,
+          "avg_path_length": 29.0
+        },
+        "astar": {
+          "success_count": 3,
+          "min_cost": 28,
+          "max_cost": 28,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0010013580322265625,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 217
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0010118484497070312,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 217
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0009033679962158203,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 217
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0009721914927164713,
+          "avg_cost": 28.0,
+          "avg_nodes": 217.0,
+          "avg_path_length": 29.0
+        },
+        "local": {
+          "success_count": 3,
+          "min_cost": 28,
+          "max_cost": 28,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0010576248168945312,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 12
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0009417533874511719,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 12
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.001085519790649414,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 5
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.001028299331665039,
+          "avg_cost": 28.0,
+          "avg_nodes": 9.666666666666666,
+          "avg_path_length": 29.0
+        }
+      },
+      "8-connected": {
+        "bfs": {
+          "success_count": 3,
+          "min_cost": 28,
+          "max_cost": 28,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0010001659393310547,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.000997304916381836,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0006658236185709635,
+          "avg_cost": 28.0,
+          "avg_nodes": 221.0,
+          "avg_path_length": 29.0
+        },
+        "ucs": {
+          "success_count": 3,
+          "min_cost": 28,
+          "max_cost": 28,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010385513305664062,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 221
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.00034618377685546875,
+          "avg_cost": 28.0,
+          "avg_nodes": 221.0,
+          "avg_path_length": 29.0
+        },
+        "astar": {
+          "success_count": 3,
+          "min_cost": 28,
+          "max_cost": 28,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 217
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 217
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010352134704589844,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 217
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.00034507115681966144,
+          "avg_cost": 28.0,
+          "avg_nodes": 217.0,
+          "avg_path_length": 29.0
+        },
+        "local": {
+          "success_count": 3,
+          "min_cost": 28,
+          "max_cost": 28,
+          "individual_runs": [
+            {
+              "trial": 1,
+              "success": true,
+              "planning_time": 0.000997781753540039,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 19
+            },
+            {
+              "trial": 2,
+              "success": true,
+              "planning_time": 0.0009734630584716797,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 15
+            },
+            {
+              "trial": 3,
+              "success": true,
+              "planning_time": 0.0010225772857666016,
+              "path_cost": 28,
+              "path_length": 29,
+              "nodes_expanded": 12
+            }
+          ],
+          "success_rate": 100.0,
+          "avg_time": 0.0009979406992594402,
+          "avg_cost": 28.0,
+          "avg_nodes": 15.333333333333334,
+          "avg_path_length": 29.0
+        }
+      }
+    }
+  }
+}

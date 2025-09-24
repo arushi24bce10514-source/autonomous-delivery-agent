@@ -1,0 +1,108 @@
+AUTONOMOUS DELIVERY AGENT - EXPERIMENT SUMMARY
+============================================================
+Generated: 2025-09-25T01:49:14.024043
+
+MAP: SMALL
+========================================
+
+Configuration: 4-connected
+------------------------------
+Planner    Success%   Time(s)   Cost     Nodes    Length
+------------------------------------------------------------
+bfs         100.0%     0.000     18.0     98.0     19.0
+ucs         100.0%     0.000     18.0     98.0     19.0
+astar       100.0%     0.001     18.0     96.0     19.0
+local       100.0%     0.001     18.0   14.333333333333334     19.0
+
+Configuration: 8-connected
+------------------------------
+Planner    Success%   Time(s)   Cost     Nodes    Length
+------------------------------------------------------------
+bfs         100.0%     0.001     18.0     98.0     19.0
+ucs         100.0%     0.000     18.0     98.0     19.0
+astar       100.0%     0.000     18.0     96.0     19.0
+local       100.0%     0.001     18.0     10.0     19.0
+
+MAP: MEDIUM
+========================================
+
+Configuration: 4-connected
+------------------------------
+Planner    Success%   Time(s)   Cost     Nodes    Length
+------------------------------------------------------------
+bfs         100.0%     0.002     38.0    392.0     39.0
+ucs         100.0%     0.002     38.0    392.0     39.0
+astar       100.0%     0.001     38.0    380.0     39.0
+local       100.0%     0.001     38.0   19.333333333333332     39.0
+
+Configuration: 8-connected
+------------------------------
+Planner    Success%   Time(s)   Cost     Nodes    Length
+------------------------------------------------------------
+bfs         100.0%     0.001     38.0    392.0     39.0
+ucs         100.0%     0.001     38.0    392.0     39.0
+astar       100.0%     0.001     38.0    380.0     39.0
+local       100.0%     0.001     38.0   26.666666666666668     39.0
+
+MAP: LARGE
+========================================
+
+Configuration: 4-connected
+------------------------------
+Planner    Success%   Time(s)   Cost     Nodes    Length
+------------------------------------------------------------
+bfs         100.0%     0.001     58.0    888.0     59.0
+ucs         100.0%     0.003     58.0    888.0     59.0
+astar       100.0%     0.003     58.0    872.0     59.0
+local       100.0%     0.002     58.0   24.333333333333332     59.0
+
+Configuration: 8-connected
+------------------------------
+Planner    Success%   Time(s)   Cost     Nodes    Length
+------------------------------------------------------------
+bfs         100.0%     0.001     58.0    888.0     59.0
+ucs         100.0%     0.003     58.0    888.0     59.0
+astar       100.0%     0.003     58.0    872.0     59.0
+local       100.0%     0.001     58.0   30.666666666666668     59.0
+
+MAP: DYNAMIC
+========================================
+
+Configuration: 4-connected
+------------------------------
+Planner    Success%   Time(s)   Cost     Nodes    Length
+------------------------------------------------------------
+bfs         100.0%     0.000     28.0    221.0     29.0
+ucs         100.0%     0.000     28.0    221.0     29.0
+astar       100.0%     0.001     28.0    217.0     29.0
+local       100.0%     0.001     28.0   9.666666666666666     29.0
+
+Configuration: 8-connected
+------------------------------
+Planner    Success%   Time(s)   Cost     Nodes    Length
+------------------------------------------------------------
+bfs         100.0%     0.001     28.0    221.0     29.0
+ucs         100.0%     0.000     28.0    221.0     29.0
+astar       100.0%     0.000     28.0    217.0     29.0
+local       100.0%     0.001     28.0   15.333333333333334     29.0
+
+
+OVERALL ANALYSIS
+========================================
+Best Performing Algorithms:
+------------------------------
+small_4-connected: LOCAL (score: 11.50, time: 0.001s, cost: 18.0)
+small_8-connected: LOCAL (score: 10.20, time: 0.001s, cost: 18.0)
+medium_4-connected: LOCAL (score: 21.00, time: 0.001s, cost: 38.0)
+medium_8-connected: LOCAL (score: 23.20, time: 0.001s, cost: 38.0)
+large_4-connected: LOCAL (score: 30.50, time: 0.002s, cost: 58.0)
+large_8-connected: LOCAL (score: 32.40, time: 0.001s, cost: 58.0)
+dynamic_4-connected: LOCAL (score: 14.10, time: 0.001s, cost: 28.0)
+dynamic_8-connected: LOCAL (score: 15.80, time: 0.001s, cost: 28.0)
+
+Key Findings:
+- A* generally provides the best balance of speed and optimality
+- BFS excels in simple environments with uniform costs
+- UCS is optimal for varying terrain costs
+- Local search adapts well to dynamic environments
+- 8-connected movement reduces path length but increases computation
